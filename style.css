@@ -1,0 +1,123 @@
+    
+        /* 🎨 THE ACCENT PALETTE STYLES */
+        .bg-slate { background-color: #0f172a !important; }
+        .fw-extrabold { font-weight: 800; }
+        .fw-mono { font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+
+        /* 🎨 THE NEW MUTED PREMIUM ACCENTS */
+        
+        /* Physics: Deep Steel Blue */
+        .text-cyan { color: #334155 !important; } /* Deep Slate */
+        .border-cyan { border-color: #475569 !important; } 
+        .btn-outline-cyan { color: #475569; border-color: #cbd5e1; }
+        .btn-outline-cyan:hover { background-color: #475569; color: #fff; border-color: #475569; }
+        .hover-cyan:hover { color: #475569 !important; }
+
+        /* Chemistry: Muted Sage Teal */
+        .text-emerald { color: #115e59 !important; } 
+        .border-emerald { border-color: #14b8a6 !important; } 
+        .btn-outline-emerald { color: #115e59; border-color: #99f6e4; }
+        .btn-outline-emerald:hover { background-color: #115e59; color: #fff; border-color: #115e59; }
+        .hover-emerald:hover { color: #115e59 !important; }
+
+        /* Mathematics: Warm Terracotta / Crimson */
+        .text-coral { color: #991b1b !important; } 
+        .border-coral { border-color: #f87171 !important; } 
+        .btn-outline-coral { color: #991b1b; border-color: #fca5a5; }
+        .btn-outline-coral:hover { background-color: #991b1b; color: #fff; border-color: #991b1b; }
+        .hover-coral:hover { color: #991b1b !important; }
+
+        /* Biology: Deep Plum Purple */
+        .text-magenta { color: #581c87 !important; } 
+        .border-magenta { border-color: #c084fc !important; } 
+        .btn-outline-magenta { color: #581c87; border-color: #e9d5ff; }
+        .btn-outline-magenta:hover { background-color: #581c87; color: #fff; border-color: #581c87; }
+        .hover-magenta:hover { color: #581c87 !important; }
+
+
+        /* 🚀 ADVANCED UI MIXINS */
+        .text-gradient {
+            background: linear-gradient(135deg, #0ea5e9 0%, #10b981 50%, #f43f5e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .form-control:focus {
+            box-shadow: none !important;
+            background-color: #fff;
+        }
+        .footer-links a, footer a { 
+            transition: color 0.2s ease-in-out; 
+        }
+            /* Premium Soft Minimalist Hero Background */
+        .academic-hero {
+            background: radial-gradient(circle at top right, #f8fafc 0%, #f1f5f9 100%);
+            border-bottom: 1px solid #e2e8f0 !important;
+            position: relative;
+        }
+
+        /* Subtle modern badge */
+        .badge-academic {
+            background-color: #ffffff;
+            color: #334155;
+            border: 1px solid #e2e8f0;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            letter-spacing: 0.05em;
+        }
+
+        /* Shadow expansion for search float effect */
+        .shadow-soft {
+            box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08) !important;
+        }
+        /* 🚀 CORE LAYOUT MIXINS */
+.text-oxford { color: #0f172a !important; }
+.text-slate { color: #475569 !important; }
+
+/* Academic Hero Radial Depth Grid */
+.academic-hero {
+    background: radial-gradient(circle at top right, #f8fafc 0%, #f1f5f9 100%);
+    border-bottom: 1px solid #e2e8f0 !important;
+    position: relative;
+}
+
+/* Subtle Modern Badging */
+.badge-academic {
+    background-color: #ffffff;
+    color: #475569;
+    border: 1px solid #e2e8f0;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.05em;
+}
+
+/* Resource Directory Card Hover Animations */
+.resource-card {
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    transition: all 0.2s ease-in-out;
+}
+.resource-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.04) !important;
+}
+
+/* Soft Matte Action Control Buttons */
+.btn-minimal-action {
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.15s ease-in-out;
+}
+.btn-minimal-action:hover {
+    background-color: #334155;
+    border-color: #334155;
+    color: #ffffff;
+}
+
+/* Smooth Navigation Global Link Glows */
+.footer-links a, footer a { 
+    transition: color 0.15s ease-in-out; 
+}
+
+
